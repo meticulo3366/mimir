@@ -77,6 +77,7 @@
 * [BUGFIX] Cost attribution: Fix panic when metrics are created with invalid labels. #13273
 * [BUGFIX]: Distributor: Fix in-flight request counter when the reactive limiter is full. #13406
 * [BUGFIX]: Ingester: Panic when push and read reactive limiters are enabled with prioritization. #13482
+* [BUGFIX] MQE: Fix an issue when applying extra matchers to one side of a binary operation to avoid adding matchers for labels that do not exist. #13499
 
 ### Mixin
 
